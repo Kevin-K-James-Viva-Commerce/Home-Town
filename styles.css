@@ -1,0 +1,150 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 720px;
+    font-family: 'Tiro Tamil', serif;
+}
+
+img {
+    width: 100px;
+}
+
+.major-section {
+    height: 380px;
+}
+
+#hero {
+    background-image: url("./images/Chennai_Super_Kings_flag.gif");
+    background-size: cover;
+}
+
+#places {
+    background-image: url("./images/Chennai_Central_4K.jpg");
+    background-size: cover;
+    padding-top: 29px;
+}
+
+#guide {
+    background-color: rgb(236, 236, 17);
+    padding: 25px;
+
+}
+
+#visiting-places {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#card {
+    background-color: #87CEEB;
+    margin: 35px 130px;
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 23px;
+    border: #800080 solid thick;
+    
+}
+
+#section-1-text {
+    padding: 69px;
+}
+
+#section-1-heading {
+    padding: 3px 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: #800080;
+    border-radius: 10px;
+}
+
+
+#section-1-sub-heading-div {
+    
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #800080;
+    border-radius: 10px;  
+}
+
+#section-2-heading {
+    background-color: rgb(236, 236, 17);
+    border-radius: 10px;
+    color: #800080;
+    width: 300px;
+    padding: 5px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section-2-heading {
+    margin-top: 39px;
+    
+    
+}
+
+.section-2-images {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: rgb(236, 236, 17) solid thick;
+    
+}
+
+#profile-picture, #guide-details {
+    width: 160px;
+    height: 245px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#profile-picture {
+    border: #800080 solid 2px;
+}
+
+.place-name {
+    background-color: rgb(236, 236, 17);
+    border-radius: 10px;
+    color: #800080;
+    padding: 3px 6px;
+}
+
+#guide-details {
+    color: #800080;
+    text-shadow: 0px 0px 1px black;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
